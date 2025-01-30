@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+
+
+header {
+    background: url(./FB_IMG_17006536842867672.jpg);
+    background-size: cover;
+    color: #ffffff ;
+    font-style: normal;
+    padding: 40px 0; 
+    text-align: center;
+    border: rgb(255, 255, 255) solid ;
+    border-radius: 55px;
+    
+}
+
+header h1 {
+    font-size: 2.5em; 
+    margin-bottom: 10px;
+   
+    
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 20px 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ecf0f1; 
+}
+
+/* Styles de la section héro */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover; /* Image de fond */
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.cta-button {
+    background: #e74c3c; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #c0392b; 
+}
+
+/* Styles des sections principales */
+main {
+    padding: 30px 10%; 
+}
+
+/* Styles des titres de section */
+h2 {
+    color: #2c3e50;
+    margin: 20px 0;
+    font-size: 2em; 
+    border-bottom: 2px solid #e74c3c; 
+    padding-bottom: 10px;
+}
+
+/* Styles des paragraphes */
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em; 
+}
+
+/* Styles des listes */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Styles du pied de page */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #2c3e50;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em; 
+}
+
+/* Styles pour le formulaire */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; 
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #bdc3c7; 
+    border-radius: 4px;
+}
+
+form button {
+    background: #e74c3c; 
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #c0392b; 
+}
